@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Complex Function Mapper</title>
+        <link href = "index.css", rel = "stylesheet">
+    </head>
+    <body>
+        <h1>Complex Function Mapper</h1>
+        <h3>Zasharan2</h3>
+        <canvas id = "canv", width = "1024px", height = "512px"></canvas>
+        <br>
+        Function Input (Reverse Polish Notation): <input id = "functionInput", type = "text"><input id = "functionInputButton", type = "button", value = "Add to function"><input id = "functionRemoveButton", type = "button", value = "Backspace/Delete">
+        <br>
+        Function Display: <span id = "functionDisplaySpan">Z</span>
+        <br>
+        <br>
+        <input id = "clearDrawingButton", type = "button", value = "Clear Drawing">
+        <br>
+        <br>
+        X Range: <input id = "xRangeSlider", type = "range", value = 50> <span id = "xRangeLabel">10</span>
+        <br>
+        Y Range: <input id = "yRangeSlider", type = "range", value = 50> <span id = "yRangeLabel">10</span>
+        <br>
+        Resolution: <input id = "resolutionSlider", type = "range", value = 10> <span id = "resolutionLabel">1</span>
+        <br>
+        Connection Distance: <input id = "lineMinDistSlider", type = "range", value = 50> <span id = "lineMinDistLabel">20</span>
+        <script src = "index.js"></script>
+    </body>
+</html>
